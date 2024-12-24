@@ -13,5 +13,5 @@ return require('packer').startup(function(use)
 	}
 	-- Using Packer
 	use 'navarasu/onedark.nvim'
-
+	use 'tpope/vim-surround'
 end)

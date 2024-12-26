@@ -17,4 +17,5 @@ return require('packer').startup(function(use)
 		run = ':TSUpdate'
 	}
 	use 'airblade/vim-gitgutter'
+	use 'vim-airline/vim-airline'
 end)

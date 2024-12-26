@@ -99,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/usman/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/usman/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/usman/.local/share/nvim/site/pack/packer/start/vim-fugitive",

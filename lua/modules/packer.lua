@@ -18,4 +18,10 @@ return require('packer').startup(function(use)
 	}
 	use 'airblade/vim-gitgutter'
 	use 'vim-airline/vim-airline'
+	use 'neovim/nvim-lspconfig'
+	use 'williamboman/mason.nvim'
+	use 'williamboman/mason-lspconfig.nvim'
+	use 'hrsh7th/nvim-cmp'
+	use 'hrsh7th/cmp-nvim-lsp'
+	use 'L3MON4D3/LuaSnip'
 end)

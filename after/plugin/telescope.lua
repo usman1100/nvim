@@ -3,13 +3,7 @@ function is_a_git_repo()
 	local git_dir = cwd .. "/.git"
 
 	-- Check if the .git folder exists
-	if vim.fn.isdirectory(git_dir) == 1 then
-		print("You are in a Git repository.")
-		return true
-	else
-		print("Not a Git repository.")
-		return false
-	end
+	return vim.fn.isdirectory(git_dir) == 1
 end
 
 local builtin = require('telescope.builtin')
